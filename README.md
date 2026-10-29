@@ -1,50 +1,67 @@
-# Awesome-Checkout-Platform
+# 🛒 Awesome Checkout Platform
 
-# Awesome-Checkout-Platform
+<div align="center">
 
-**Top Checkout Platform (Opensource) 🌟 Star if you like it! 🌟**
+<img src="./assets/banner.svg" alt="Awesome Checkout Platform Banner" width="100%" />
 
+<p align="center">
+  <strong>Curated guide to cutting-edge Hosted Checkout Pages, Payment Orchestration Engines, One-Click Flows & Composable Commerce Stacks.</strong>
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Checkout-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Checkout-Platform?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Checkout-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Checkout-Platform?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Checkout-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <strong>🌟 Star this repository if you find it helpful! 🌟</strong>
+</p>
 
-*Focused on Hosted Checkout Pages, Payment Orchestration, One-Click Flows & Composable Commerce Checkout*
+</div>
 
-**Last updated: October 2026**
+---
 
+## 📌 Overview & SEO Summary
 
+Welcome to the **Awesome Checkout Platform** directory—an authoritative, production-tested benchmark tracking notable **SaaS hosted checkout solutions**, **payment orchestration layers**, and **open-source headless commerce frameworks**.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Checkout Platforms**. These tools enable merchants to accept payments with minimal engineering effort—from fully hosted checkout pages that handle PCI compliance and payment method rendering to self-hosted commerce frameworks where the checkout is code you own and modify without constraints.
+Modern digital commerce depends on frictionless conversion flows. These tools enable software engineers, e-commerce merchants, and enterprise architects to accept global payments with minimal friction—spanning fully hosted PCI-DSS compliant checkout pages (handling dynamic payment method rendering, local payment rails, and 1-click accelerated wallets) to self-hosted composable commerce engines where checkout business logic is fully customized.
 
+### 🔍 Key Search Topics & Index Keywords
+- **Hosted Checkout & UI**: Stripe Checkout, Shopify Shop Pay, Adyen Drop-in, Square Online Checkout, PayPal Commerce.
+- **Payment Orchestration**: Smart routing, multi-acquirer fallbacks, authorization optimization, unified payment APIs.
+- **Composable / Headless Commerce Checkouts**: Medusa.js, Saleor GraphQL, Vendure TypeScript, Sylius Symfony, Spree Commerce, Bagisto Laravel.
+- **Alternative & Crypto Rails**: BTCPay Server self-hosted Bitcoin/Lightning payments, Kill Bill subscription billing.
 
+---
 
-**Examples** include Shopify Checkout, Stripe Checkout, Adyen Checkout, Checkout.com, PayPal Checkout, Klarna Checkout, Square Checkout, Amazon Pay, Bolt, and Fast (the category leaders and cautionary tales in commercial space).
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Checkout Platforms](#️-saas--hosted-checkout-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 Architectural Best Practices](#-architectural-best-practices)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Compliance](#️-disclaimer--compliance)
 
+---
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosting, checkout flows, and open payment infrastructure. **Critical note**: True open-source checkout platforms—hosted pages with PCI-compliant card forms and built-in payment method support—do not exist as turnkey SaaS replacements. Open-source projects provide **commerce frameworks** where you build and host the checkout yourself, or **payment orchestration layers** that route transactions but do not render a checkout UI. The projects below require you to own the infrastructure, PCI compliance, and payment processor relationships.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global payment gateway and checkout platform market is estimated at **$35B – $58B in 2026** and projected to surpass **$240B+ by the mid-2030s** (growing at an estimated 14%–22% CAGR). The sector is **moderately fragmented yet increasingly concentrated around dominant ecosystem winners**—where top players like Amazon, Shopify, Stripe, PayPal, and Adyen capture massive transaction volumes, while specialized and independent one-click checkout providers face steep network-effect barriers and margin pressure.
 
-## SaaS/Hosted Platforms
+---
 
-| Platform | Company Size (Valuation / Revenue) | Starting Pricing Tier | Free Tier Limits / Free Trial | Best For & Overview |
+## ☁️ SaaS / Hosted Checkout Platforms
+
+The following SaaS platforms provide hosted checkout pages, built-in PCI compliance, and multi-currency payment method rendering. Entries are ranked in descending order by **Company Size (Valuation / Market Capitalization)**:
+
+| 🏷️ Platform | 🏢 Company Size (Valuation / Revenue) | 💳 Starting Pricing Tier | 🎁 Free Tier Limits / Free Trial | 🎯 Best For & Overview |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Amazon Pay](https://pay.amazon.com/)** | **~$2.68T Market Cap** (~$716.9B annual revenue) | 2.9% + $0.30 per domestic web/mobile transaction ($0 setup/monthly fees) | **No Free Trial**: Unlimited sandbox test environment included; live processing has no free transaction tier (fees apply on successful live transactions). | Merchants seeking trusted 1-click checkout leveraging Amazon accounts and buyer credentials. |
 | **[Shopify Checkout](https://www.shopify.com/)** | **~$220B Market Cap** (~$8.9B annual revenue) | Basic plan starting at **$39/month** (+ 2.9% + $0.30 per online transaction with Shopify Payments) | **3-Day Free Trial** (then $1/month promo for 3 months): Unlimited store build/admin testing; live checkout is locked in password-protected mode until a paid plan is selected. | Merchants wanting a turn-key managed checkout with the Shop Pay network without PCI burdens. |
@@ -57,112 +74,184 @@ The global payment gateway and checkout platform market is estimated at **$35B �
 | **[Bolt](https://www.bolt.com/)** | **~$300M Valuation** (down from $11B peak; ~$30M revenue) | Baseline starting rate of **2.9% + $0.30** per transaction or custom markup over existing processor gateway | **No Free Tier**: Sandbox developer portal for testing; live deployment requires enterprise agreement. | Merchants exploring standalone alternative 1-click networks aware of ongoing platform volatility. |
 | **[Fast](https://fast.co/)** | **$0 / Defunct** (Shut down April 2022 after raising $125M; peaked at $600K ARR) | Defunct (**N/A**; previously charged ~2.9% + $0.30) | **Defunct**: Zero active tiers or trials. Retained as historical case study on unsustainable wallet subsidies. | Historical reference only; do not build on this platform. |
 
-## Open-Source GitHub Projects
-
-
-
-- **[Spree Storefront](https://github.com/spree/storefront)**
-
-  **Open-source Next.js storefront with one-page checkout** (MIT) — **the most production-ready open-source checkout UI** in this list. **Features**: One-page checkout supporting guest and authenticated users; multi-shipment natively; coupon codes, gift cards, and store credit; **Stripe, PayPal, and Adyen via Payment Sessions** with 3DS, Apple Pay, Google Pay, Klarna, Affirm, and SEPA support; card data never touches your server; transactional emails via Resend; multi-region with country/currency/language switching . **Tech stack**: Next.js 16, React 19, TypeScript, Tailwind CSS 4. **Deploy**: Self-hosted (point `NEXT_PUBLIC_SPREE_API_URL` at a Spree backend). **Trade-off**: **Storefront UI only**—requires a Spree Commerce backend (BSD-3-Clause) running separately. You own PCI compliance and payment processor relationships. **Best for**: developers wanting a production-ready, customizable one-page checkout with swappable payment providers and no SaaS lock-in.
-
-
-
-- **[Medusa](https://github.com/medusajs/medusa)**
-
-  **Open-source headless commerce platform** (MIT for core) — **a composable framework where checkout is fully yours to build and host**. **Features**: Modular architecture with separate cart, payment, and fulfillment modules; API-first; the payment step flow includes retrieving providers, creating payment collections, and initializing payment sessions via SDK . **Tech stack**: Node.js, TypeScript, PostgreSQL. **Deploy**: Self-hosted or Medusa Cloud. **Trade-off**: **Not a checkout platform out of the box**—you build the checkout UI and flow in your storefront. No pre-built hosted checkout page. **Best for**: developers wanting full ownership of checkout logic within a modern TypeScript stack.
-
-
-
-- **[Saleor](https://github.com/saleor/saleor)**
-
-  **Open-source, GraphQL-first headless commerce platform** (BSD-3-Clause) — **a mature composable framework with a rich checkout API**. **Features**: Single GraphQL endpoint covering checkout, orders, payments, and promotions; official TypeScript/JavaScript SDK with typed checkout helpers; reference Next.js storefront for checkout flows . **Tech stack**: Python (Django), GraphQL, PostgreSQL. **Deploy**: Self-hosted or Saleor Cloud. **Trade-off**: **Platform, not a hosted checkout**—checkout must be implemented in a storefront using the GraphQL API. No built-in UI. **Best for**: teams wanting a GraphQL-native commerce backend with fine-grained control over checkout mutations and pricing.
-
-
-
-- **[Vendure](https://github.com/vendure-ecommerce/vendure)**
-
-  **Open-source headless commerce framework** (MIT) — **a TypeScript-first platform with an official storefront starter that includes checkout**. **Features**: The **TanStack Start Storefront Starter** covers cart management, promotion codes, shipping selection, payment, checkout review, and order confirmation; English and German localization; persistent currency selection . **Tech stack**: Node.js, TypeScript, GraphQL, PostgreSQL. **Deploy**: Self-hosted (clone starter, point at Vendure Shop API). **Trade-off**: **Framework + starter**—checkout is code you own and modify; no hosted checkout page. **Best for**: TypeScript developers wanting a modern commerce framework with an official storefront that includes a complete checkout flow.
-
-
-
-- **[Sylius](https://github.com/Sylius/Sylius)**
-
-  **Open-source eCommerce framework for Symfony** (MIT) — **a PHP-based framework with complete control over checkout flow**. **Features**: Custom checkout flows, tiered pricing, organization-level accounts, and tax logic built to match your business; headless and API-first, pairable with any frontend; Community Edition is MIT-licensed . **Tech stack**: PHP (Symfony), Doctrine. **Deploy**: Self-hosted. **Trade-off**: **Framework, not a checkout platform**—you build and host the checkout within your Symfony application. No pre-built UI or hosted page. **Best for**: PHP/Symfony developers wanting full control over checkout logic in a mature, MIT-licensed framework.
-
-
-
-- **[Hyperswitch](https://github.com/juspay/hyperswitch)**
-
-  **Open-source payment orchestration platform** (Apache 2.0 for core) — **the most significant open-source infrastructure for the payment layer beneath checkout**. **Features**: Unified orchestration across 100+ processors and networks; dynamic routing and smart retries to improve authorization rates; vault, reconciliation, cost observability, and APM widgets; composable modules you can adopt independently . **Tech stack**: Rust (backend), TypeScript/React. **Deploy**: Self-hosted (Docker, Kubernetes) or Hyperswitch Cloud. **Trade-off**: **Orchestration layer, not a checkout UI**—it routes transactions and manages payment methods but does not render a checkout page. You still build the frontend. **Best for**: merchants wanting to reduce processor lock-in, improve success rates via routing, and own their payment infrastructure without building orchestration from scratch.
-
-
-
-- **[Liberu Ecommerce](https://github.com/liberusoftware/ecommerce-laravel)**
-
-  **Open-source Laravel eCommerce platform** (MIT) — **a full-stack option with reactive checkout built in**. **Features**: Reactive shopping cart and checkout with Livewire 4; guest and authenticated checkout flows; multiple shipping methods with server-side rate calculation; Stripe integration with webhooks and test mode; PayPal ready to activate; dropshipping via DropXL . **Tech stack**: Laravel 13, PHP 8.5, Filament 5, Livewire 4. **Deploy**: Self-hosted (`./setup.sh` interactive installer). **Trade-off**: **Full platform, not a checkout component**—you adopt the entire ecommerce stack. No hosted checkout; PCI compliance is your responsibility. **Best for**: Laravel developers wanting a modern, full-stack commerce platform with checkout included.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Mobazha Unified** — Open-source commerce frontend for storefronts, marketplaces, and checkout (MPL-2.0). Connects to hosted or self-hosted Mobazha Node; renders payment networks advertised by backend (UTXO chains, EVM networks including BNB Smart Chain); per-order Safe multisig escrow addresses . **Note**: Crypto-native checkout focus—not traditional card processing. **Best for**: merchants in crypto commerce wanting a self-hostable checkout frontend.
-
-- **Spwig Commerce** — Modular monolith Django eCommerce platform (AGPL-3.0). Includes storefront, admin, REST API, and Celery workers in a single process; provider SDKs for payments are Apache-2.0 . **Note**: Full platform, not a checkout component; requires adopting the entire stack. **Best for**: Django developers wanting a batteries-included commerce platform.
-
-
-
-**Frameworks for building custom systems**: Combine **Spree Storefront** for a production-ready one-page checkout UI with **Spree Commerce** or **Medusa** as the backend, **Hyperswitch** for payment orchestration and routing, and **Vendure** or **Saleor** for GraphQL-native commerce—creating a self-hosted checkout stack. **None of these provide a hosted, PCI-compliant checkout page** like Stripe Checkout or Shopify Checkout; you own the infrastructure, compliance, and processor relationships.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Checkout platforms handling payment data must comply with **PCI DSS**, data protection regulations (GDPR, CCPA, etc.), and card network rules. Self-hosted solutions shift PCI compliance responsibility to you.
-
-- **The "hosted checkout page" vs. "commerce framework" vs. "payment orchestration" distinction is absolute.** **Shopify Checkout, Stripe Checkout, Adyen Checkout, Checkout.com, PayPal Checkout, Klarna Checkout, Square Checkout, Amazon Pay, and Bolt** are **hosted checkout services**—they render the payment UI, handle PCI compliance, and often provide optimized conversion flows. **Spree Storefront, Medusa, Saleor, Vendure, Sylius, and Liberu** are **commerce frameworks**—they provide the backend and/or storefront code, but **you host the checkout and own PCI compliance**. **Hyperswitch** is **payment orchestration**—it routes transactions but does not render a checkout page. **No open-source project provides a turnkey hosted checkout SaaS replacement.**
-
-- **Fast is included as a historical cautionary tale, not a recommendation.** The company shut down in April 2022 after raising ~$125M and burning ~$10M/month on ~$600K annual revenue. Its failure illustrates the difficulty of competing against entrenched payment networks without sustainable economics. **Do not build on defunct infrastructure.**
-
-- **Bolt's stability is uncertain.** Its valuation collapsed 97% from $11B to $300M, and it is raising a pay-to-play bridge round described as potentially the company's last shot. **Evaluate vendor risk carefully before committing.**
-
-- **Spree Storefront is the strongest open-source checkout UI in this list.** It offers a production-ready one-page checkout with Stripe, PayPal, and Adyen, wallet support (Apple Pay, Google Pay, Klarna, Affirm), and multi-region capabilities . **The trade-off**: it requires a Spree Commerce backend and shifts PCI compliance to you.
-
-- **Open-source checkout requires accepting PCI responsibility.** When you self-host a checkout, you are handling card data (or integrating a processor's iframe/SDK). **This is a significant operational and compliance burden** that hosted checkouts like Stripe eliminate. Evaluate your team's capacity for PCI DSS compliance before choosing an open-source path.
-
-- **Pricing opacity varies.** Stripe Checkout and Square publish standard processing rates; Shopify includes checkout with platform subscriptions. Adyen, Checkout.com, PayPal (enterprise), Klarna, Amazon Pay, and Bolt require sales contact or volume-based negotiation. **Validate with direct vendor conversations against your transaction volume and payment mix.**
-
-- Self-hosted open-source solutions require proper server setup, security hardening, backup configuration, and ongoing maintenance. **Checkout code handles payment credentials**—ensure your deployment meets PCI DSS requirements and your organization's security standards before processing live transactions.
-
-
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Open-source checkout options provide **payment orchestration infrastructure**, **composable commerce APIs**, or **complete self-hosted checkout storefronts**. Repositories below are sorted in descending order by **GitHub Star Count**:
+
+- **[Hyperswitch](https://github.com/juspay/hyperswitch)** [![GitHub stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) 🦀
+  
+  **Open-source payment orchestration platform** (Apache 2.0) — **the most widely starred open-source infrastructure for the payment layer beneath checkout**. 
+  - **Features**: Unified orchestration across 100+ processors and networks; dynamic routing and smart retries to maximize authorization rates; independent card vault, reconciliation, cost observability, and checkout APM widgets.
+  - **Tech Stack**: Rust (high-performance backend), TypeScript / React.
+  - **Deploy**: Self-hosted (Docker, Kubernetes) or Hyperswitch Cloud.
+  - **Trade-off**: Orchestration layer, not a storefront checkout UI—it routes transactions and manages processor connections, but you still implement your frontend checkout experience.
+  - **Best for**: Merchants seeking to eliminate payment processor lock-in, decrease transaction fees, and own routing logic without building from scratch.
+
+- **[Medusa](https://github.com/medusajs/medusa)** [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) ⚡
+  
+  **Open-source headless commerce platform** (MIT for core) — **a modular framework where checkout logic is completely yours to own and customize**.
+  - **Features**: Composable architecture with decoupled cart, customer, payment, and fulfillment modules; API-first; payment step flow includes provider discovery, payment collections, and multi-session initialization via SDK.
+  - **Tech Stack**: Node.js, TypeScript, PostgreSQL.
+  - **Deploy**: Self-hosted or Medusa Cloud.
+  - **Trade-off**: Not a turnkey checkout SaaS page—you construct the checkout UI and user flow in your Next.js/React storefront.
+  - **Best for**: Engineers seeking complete architectural ownership of checkout and commerce business logic within a modern JavaScript/TypeScript stack.
+
+- **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) 🛍️
+  
+  **Open-source Laravel eCommerce framework** (MIT) — **feature-rich complete commerce engine with built-in multi-step and one-page checkout flows**.
+  - **Features**: Complete one-step checkout; multi-currency and multi-channel support out of the box; integrated PayPal, Stripe, and Cash on Delivery gateways; native mobile app API (REST & GraphQL).
+  - **Tech Stack**: PHP 8.2+, Laravel 11/12, Vue.js, MySQL.
+  - **Deploy**: Self-hosted (LAMP/LEMP, Docker).
+  - **Trade-off**: Adopts the broader Laravel monolith stack; custom checkout UI customizations require familiarity with Blade/Vue templates.
+  - **Best for**: Teams seeking a complete, customizable PHP/Laravel commerce platform with an operational checkout already included.
+
+- **[Saleor](https://github.com/saleor/saleor)** [![GitHub stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers) 🌐
+  
+  **Open-source GraphQL-first headless commerce platform** (BSD-3-Clause) — **enterprise-grade composable framework featuring an expressive checkout API**.
+  - **Features**: Comprehensive GraphQL API managing carts, checkouts, shipping lines, taxes, and payments; official TypeScript SDK with typed checkout helpers; official reference Next.js storefront checkout implementation.
+  - **Tech Stack**: Python (Django), GraphQL, PostgreSQL.
+  - **Deploy**: Self-hosted or Saleor Cloud.
+  - **Trade-off**: Backend engine only—checkout UI must be integrated into your frontend web or mobile client.
+  - **Best for**: Teams demanding a typed GraphQL API, strict performance guarantees, and fine-grained control over dynamic checkout mutations.
+
+- **[Spree Commerce](https://github.com/spree/spree)** [![GitHub stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers) 💎
+  
+  **Open-source headless & multi-store eCommerce platform** (BSD-3-Clause) — **battle-tested commerce engine powering thousands of global checkouts**.
+  - **Features**: Complete checkout state-machine (address, delivery, payment, confirm); multi-store, multi-currency, and omni-channel checkout natively; robust payment gateway integrations (Stripe, Braintree, PayPal, Adyen).
+  - **Tech Stack**: Ruby on Rails, PostgreSQL / MySQL.
+  - **Deploy**: Self-hosted (Heroku, AWS, Kubernetes).
+  - **Trade-off**: Requires Ruby/Rails knowledge for deep backend customization.
+  - **Best for**: Organizations requiring a battle-hardened checkout state machine with enterprise stability and active plugin ecosystem.
+
+- **[Sylius](https://github.com/Sylius/Sylius)** [![GitHub stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers) 🦅
+  
+  **Open-source eCommerce framework for Symfony** (MIT) — **PHP framework engineered for ultimate flexibility and test-driven checkout design**.
+  - **Features**: Configurable checkout state machine; tiered pricing, promotions, multi-warehouse shipping calculations; headless API-first architecture compatible with any frontend.
+  - **Tech Stack**: PHP, Symfony, Doctrine, MySQL.
+  - **Deploy**: Self-hosted.
+  - **Trade-off**: High developer-centric learning curve; designed for tailored enterprise implementations rather than 5-minute setup.
+  - **Best for**: PHP/Symfony engineers demanding total control over checkout business logic with rigorous unit test coverage.
+
+- **[Vendure](https://github.com/vendure-ecommerce/vendure)** [![GitHub stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers) 🍁
+  
+  **Open-source headless commerce framework** (MIT) — **modern TypeScript-first commerce backend paired with high-performance checkout starters**.
+  - **Features**: Clean GraphQL API; TanStack Start & Next.js storefront starters with built-in multi-step checkout; multi-currency, promo codes, shipping calculation, and extensible payment method handlers.
+  - **Tech Stack**: Node.js, TypeScript, GraphQL, PostgreSQL / MySQL.
+  - **Deploy**: Self-hosted (Docker, Node servers) or Vendure Cloud.
+  - **Trade-off**: Checkout is client code you own and maintain; no third-party hosted page.
+  - **Best for**: TypeScript developers seeking an intuitive developer experience with modular payment provider plugins.
+
+- **[BTCPay Server](https://github.com/btcpayserver/btcpayserver)** [![GitHub stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers) ⚡
+  
+  **Self-hosted, open-source cryptocurrency payment processor** (MIT) — **non-custodial checkout page for Bitcoin, Lightning Network, and altcoins**.
+  - **Features**: Ready-to-use checkout UI supporting invoices, QR codes, and Lightning payments; zero processing fees and no middleman; automated settlement to your hardware wallet; e-commerce plugins for WooCommerce, Shopify, and custom APIs.
+  - **Tech Stack**: C#, .NET, PostgreSQL.
+  - **Deploy**: Self-hosted (Docker, LunaNode, Umbrel, Start9).
+  - **Trade-off**: Dedicated to crypto/Bitcoin payments—does not process traditional Visa/Mastercard credit cards.
+  - **Best for**: Merchants and developers requiring a sovereign, zero-fee crypto checkout without custodial counterparty risk.
+
+- **[Kill Bill](https://github.com/killbill/killbill)** [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) 💰
+  
+  **Open-source subscription billing and payments platform** (Apache 2.0) — **enterprise infrastructure for complex recurring checkouts and billing**.
+  - **Features**: Multi-gateway payment routing; recurring billing engine, invoicing, dunning, and catalog management; integrates with Stripe, Adyen, PayPal, and Authorize.Net via plugins.
+  - **Tech Stack**: Java, OSGi, MySQL / PostgreSQL.
+  - **Deploy**: Self-hosted (Docker, AWS, Kubernetes).
+  - **Trade-off**: Focuses on subscription logic, billing schedules, and backend gateway routing rather than customer-facing UI components.
+  - **Best for**: SaaS companies and recurring revenue models requiring self-hosted subscription checkout infrastructure without SaaS rev-share.
+
+- **[Solidus](https://github.com/solidusio/solidus)** [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers) 🧱
+  
+  **Open-source, community-driven eCommerce platform** (BSD-3-Clause) — **battle-tested Ruby on Rails checkout framework for high-volume retailers**.
+  - **Features**: Highly customizable checkout pipeline; robust inventory and order management; modular payment gateway architecture (Stripe, Braintree, PayPal, Klarna); strong security record.
+  - **Tech Stack**: Ruby on Rails, PostgreSQL / MySQL.
+  - **Deploy**: Self-hosted.
+  - **Trade-off**: Requires dedicated Rails development resources.
+  - **Best for**: High-volume direct-to-consumer (DTC) brands needing unconstrained ownership over checkout rules and payment logic.
+
+- **[Shopware Core](https://github.com/shopware/shopware)** [![GitHub stars](https://img.shields.io/github/stars/shopware/shopware?style=social&color=white)](https://github.com/shopware/shopware/stargazers) 📦
+  
+  **Open-source composable eCommerce engine** (MIT) — **leading European commerce platform with optimized conversion flows**.
+  - **Features**: Rule builder for dynamic checkout pricing, custom payment method availability, and shipping rules; headless Storefront API and Administration panel; compliant with strict European consumer privacy laws.
+  - **Tech Stack**: PHP 8+, Symfony, Vue.js.
+  - **Deploy**: Self-hosted or Shopware Cloud.
+  - **Trade-off**: Enterprise features and specialized extensions often require commercial extensions.
+  - **Best for**: Mid-market and enterprise European merchants demanding strict compliance and customizable B2B/B2C checkouts.
+
+- **[Liberu Ecommerce](https://github.com/liberusoftware/ecommerce-laravel)** [![GitHub stars](https://img.shields.io/github/stars/liberusoftware/ecommerce-laravel?style=social&color=white)](https://github.com/liberusoftware/ecommerce-laravel/stargazers) 🚀
+  
+  **Modern open-source Laravel eCommerce application** (MIT) — **reactive shopping cart and checkout built with modern PHP**.
+  - **Features**: Reactive single-page shopping cart and checkout powered by Livewire 4; guest and registered customer checkout flows; Stripe integration with webhooks and testing tools; PayPal integration.
+  - **Tech Stack**: Laravel 13, PHP 8.5, Filament 5, Livewire 4.
+  - **Deploy**: Self-hosted interactive installer (`./setup.sh`).
+  - **Trade-off**: Full monolithic commerce platform rather than an isolated drop-in checkout component.
+  - **Best for**: Laravel engineers who want a modern TALL-stack commerce solution with built-in reactive checkout.
+
+- **[Spree Storefront (Next.js)](https://github.com/spree/storefront)** [![GitHub stars](https://img.shields.io/github/stars/spree/storefront?style=social&color=white)](https://github.com/spree/storefront/stargazers) ⚛️
+  
+  **Open-source Next.js 16 storefront with turnkey one-page checkout** (MIT) — **one of the cleanest open-source checkout UI implementations**.
+  - **Features**: Sleek one-page checkout supporting guest and authenticated users; Stripe, PayPal, and Adyen integrations via Payment Sessions with 3DS, Apple Pay, Google Pay, Klarna, Affirm, and SEPA; credit card numbers never touch your application server.
+  - **Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS 4.
+  - **Deploy**: Self-hosted (Vercel, Docker) connecting to a Spree Commerce backend.
+  - **Trade-off**: Storefront UI only—requires an active Spree Commerce backend for order processing.
+  - **Best for**: Frontend developers wanting a production-ready, beautiful checkout UI with swappable payment gateways.
 
 ---
 
+## 💡 Architectural Best Practices
 
+When deciding between **Hosted SaaS Checkouts** vs. **Self-Hosted Open-Source Frameworks**, consider these architectural trade-offs:
 
-**Made for developers, merchants, and organizations building transparent checkout infrastructure.**
+1. **PCI-DSS Compliance Boundary**:
+   - *Hosted Checkouts* (Stripe, Shopify, PayPal, Square) offload PCI-DSS burdens by hosting card collection elements in secure iframes or isolated domains (SAQ-A).
+   - *Self-Hosted Stacks* require strict tokenization wrappers. Never transmit raw card PANs through backend servers unless maintaining audited PCI-DSS Level 1 infrastructure.
+2. **Payment Orchestration vs. Gateways**:
+   - If processing >$10M/year across multiple geographies, adopt orchestration layers like **Hyperswitch** to route traffic dynamically to local acquirers (e.g. Adyen in EU, Stripe in US, local UPI in India) to boost authorization rates by 2–5%.
+3. **Wallet Network Acceleration**:
+   - Hosted platforms provide built-in identity networks (Shop Pay with 150M+ buyers, Amazon Pay, Link by Stripe, PayPal). Replicating 1-click convenience in custom checkouts requires implementing Web Payments API, Apple Pay, and Google Pay SDKs.
 
-Let's make Checkout Platforms more open, data-driven, and merchant-friendly.
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Checkout-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Checkout-Platform&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated collection useful for your architectural decisions, client projects, or payment integrations:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork the project** to maintain your own internal checkout benchmarks.
+- 📣 **Share it** with your engineering team, fintech colleagues, and community.
+- ☕ **Support continuous updates & maintenance**:  
+  [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%99%A5-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)  
+  *Buy us a coffee or sponsor research directly on the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).*
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from the community! To suggest a new checkout platform, payment orchestration tool, or open-source commerce framework:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a feature branch: `git checkout -b feature/add-new-checkout-tool`.
+3. 📝 Update `README.md` following the standardized format (include official links, pricing transparency, free tier limits, tech stack, and trade-offs).
+4. 🚀 Push changes and open a **Pull Request** with a concise summary of the addition.
+
+---
+
+## ⚠️ Disclaimer & Compliance
+
+- This repository is a **community-curated research directory** created for educational and informational purposes; it does not constitute financial, legal, or commercial endorsement.
+- All trademarks, logos, and brand names are the property of their respective owners.
+- Production payment systems must comply with **PCI-DSS requirements**, data privacy laws (**GDPR, CCPA, CPRA**), and regional banking regulations (**PSD2 / Strong Customer Authentication**).
+- **Vendor Stability Notice**: Always audit vendor unit economics, private valuation stability, and SLA terms before integrating mission-critical checkout infrastructure.
+
+---
+
+<div align="center">
+  <sub>Made with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and contributors worldwide.</sub>
+</div>
