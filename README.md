@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global payment gateway and checkout platform market is estimated at **$35B – $58B in 2026** and projected to surpass **$240B+ by the mid-2030s** (growing at an estimated 14%–22% CAGR). The sector is **moderately fragmented yet increasingly concentrated around dominant ecosystem winners**—where top players like Amazon, Shopify, Stripe, PayPal, and Adyen capture massive transaction volumes, while specialized and independent one-click checkout providers face steep network-effect barriers and margin pressure.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Shopify Checkout](https://www.shopify.com/)**
-
-  **Fully hosted, PCI-compliant checkout** with Shop Pay acceleration, dynamic upsells, and extensive payment method support. Checkout is highly customizable via Shopify Functions and Checkout UI Extensions, but the core flow is hosted by Shopify and not self-hostable. **Pricing**: Included with Shopify plans (from $39/month Basic to $399/month Plus). **Free tier**: None. **Best for**: merchants wanting a managed checkout with the largest accelerated wallet network (Shop Pay) and no PCI burden.
-
-
-
-- **[Stripe Checkout](https://stripe.com/payments/checkout)**
-
-  **Hosted checkout page** that handles card entry, wallets, and localized payment methods with a single API call. Supports subscriptions, trials, and tax calculation. **Pricing**: Standard Stripe processing fees (2.9% + $0.30 for cards). **Free tier**: None for payments. **Best for**: developers wanting the fastest integration path to a PCI-compliant, conversion-optimized checkout with minimal code.
-
-
-
-- **[Adyen Checkout](https://www.adyen.com/)**
-
-  **Enterprise checkout and payment processing** with a unified API across channels (online, in-person, mobile). **Pricing**: Quote-only; interchange-plus or blended models. **Free tier**: None. **Best for**: enterprises wanting a single platform for online and offline payments with global payment method coverage.
-
-
-
-- **[Checkout.com](https://www.checkout.com/)**
-
-  **Enterprise payment processing** with hosted checkout, tokens, and fraud tools. **Pricing**: Quote-only; interchange-plus models. **Free tier**: None. **Best for**: large merchants wanting a modern processor with direct acquiring relationships and strong API tooling.
-
-
-
-- **[PayPal Checkout](https://www.paypal.com/)**
-
-  **Hosted checkout experience** with PayPal, Venmo, Pay Later, and card processing. Includes Smart Payment Buttons that dynamically present relevant options. **Pricing**: Standard PayPal merchant fees. **Free tier**: None. **Best for**: merchants wanting access to PayPal's 400M+ active accounts and buyer protection without building wallet integrations.
-
-
-
-- **[Klarna Checkout](https://www.klarna.com/)**
-
-  **BNPL-native checkout** that integrates Pay in 4, Pay in 30 days, and financing options directly into the checkout flow. **Pricing**: Merchant fees per transaction. **Free tier**: None. **Best for**: merchants targeting BNPL-preferring demographics wanting installment options embedded in checkout.
-
-
-
-- **[Square Checkout](https://squareup.com/)**
-
-  **Hosted checkout and payment links** integrated with Square's POS and online ecosystem. **Pricing**: 2.9% + $0.30 per online transaction. **Free tier**: None for payments. **Best for**: omnichannel merchants already using Square for in-person payments wanting unified online checkout.
-
-
-
-- **[Amazon Pay](https://pay.amazon.com/)**
-
-  **Amazon account-based checkout** using saved addresses and payment methods. **Pricing**: Standard Amazon Pay merchant fees. **Free tier**: None. **Best for**: merchants selling to Amazon-accustomed shoppers wanting a trusted, recognizable checkout option.
-
-
-
-- **[Bolt](https://www.bolt.com/)**
-
-  **One-click checkout and identity platform** offering hosted, embeddable, and buy-now links. **Valuation collapsed 97%** from $11B to $300M; currently raising a **$27M pay-to-play bridge round** with CEO personally committing $5M; headcount reduced from 900 to ~60. **Pricing**: Quote-only. **Free tier**: None. **Best for**: merchants evaluating alternatives to Shop Pay with full awareness of vendor stability risk.
-
-
-
-- **[Fast](https://fast.co/)** (**Defunct**)
-
-  **One-click checkout startup that shut down abruptly in April 2022** after raising ~$125M and burning ~$10M/month on just $600K in annual revenue. Widely cited as a cautionary tale about competing against entrenched wallet networks without sustainable unit economics. **Pricing**: N/A. **Free tier**: N/A. **Best for**: historical reference only—**do not build on this platform**.
-
-
+| Platform | Company Size (Valuation / Revenue) | Starting Pricing Tier | Free Tier Limits / Free Trial | Best For & Overview |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Pay](https://pay.amazon.com/)** | **~$2.68T Market Cap** (~$716.9B annual revenue) | 2.9% + $0.30 per domestic web/mobile transaction ($0 setup/monthly fees) | **No Free Trial**: Unlimited sandbox test environment included; live processing has no free transaction tier (fees apply on successful live transactions). | Merchants seeking trusted 1-click checkout leveraging Amazon accounts and buyer credentials. |
+| **[Shopify Checkout](https://www.shopify.com/)** | **~$220B Market Cap** (~$8.9B annual revenue) | Basic plan starting at **$39/month** (+ 2.9% + $0.30 per online transaction with Shopify Payments) | **3-Day Free Trial** (then $1/month promo for 3 months): Unlimited store build/admin testing; live checkout is locked in password-protected mode until a paid plan is selected. | Merchants wanting a turn-key managed checkout with the Shop Pay network without PCI burdens. |
+| **[Stripe Checkout](https://stripe.com/payments/checkout)** | **~$159B Private Valuation** (~$4.2B+ net revenue) | **2.9% + $0.30** per successful card charge (Pay-as-you-go, no monthly fee) | **No Live Free Tier**: Free perpetual Sandbox/Test Mode (full API & UI simulator, up to 730-day trial simulation); live mode has no free transaction allotment. | Developers wanting the fastest integration to a conversion-optimized, PCI-compliant hosted checkout. |
+| **[PayPal Checkout](https://www.paypal.com/)** | **~$46B Market Cap** (~$31.8B annual revenue) | **3.49% + $0.49** per PayPal/Venmo checkout transaction (**2.99% + $0.49** for standard card processing) | **No Free Tier**: Free perpetual developer sandbox access; live checkout charges per processed order with zero free allowance. | Merchants looking for immediate access to 400M+ active PayPal and Venmo wallet users. |
+| **[Square Checkout](https://squareup.com/)** | **~$45B Market Cap** (Parent Block; ~$24.1B annual revenue) | **$0/month** software fee with **3.3% + $0.30** per online transaction (or **2.9% + $0.30** via Square Online APIs / $49/mo Plus plan) | **Free-Forever Plan**: Unlimited products, full POS sync, and online payment links; limited to basic store templates, standard reporting, and 3.3% + 30¢ processing rate. | Omnichannel merchants unifying online checkout and in-person POS sales with zero upfront monthly cost. |
+| **[Adyen Checkout](https://www.adyen.com/)** | **~$30B Market Cap** (~€1.9B net revenue) | Interchange++ starting from **$0.12 fixed fee + 0.40%–0.60% markup** per transaction (typically €100–€500/mo minimum volume) | **No Free Tier**: Free test/sandbox environment for enterprise integration; live processing requires approved commercial contract with monthly minimums. | Global enterprises requiring unified cross-channel online/in-store processing and international acquiring. |
+| **[Checkout.com](https://www.checkout.com/)** | **~$12B Valuation** (~$500M+ revenue) | Interchange++ custom quote (starting base markup of **~0.25%–0.50% + $0.05–$0.10** per transaction with zero monthly gateway fee) | **No Free Tier**: Dedicated sandbox testing environment; live transactions require merchant underwriting and commercial contract. | High-volume merchants and modern fintechs requiring direct acquiring relationships and granular payment APIs. |
+| **[Klarna Checkout](https://www.klarna.com/)** | **~$4.8B Valuation / Market Cap** (~$2.8B revenue) | **5.99% + $0.30** per transaction for standard BNPL (or ~2.99% + $0.30 for Pay Now; scales to 3.29% + $0.30 for high volume) | **No Free Tier**: Playground/test credentials available for integration; zero free transactions on live production orders. | Merchants targeting younger demographics seeking seamless embedded Buy Now Pay Later (Pay in 4 / 30). |
+| **[Bolt](https://www.bolt.com/)** | **~$300M Valuation** (down from $11B peak; ~$30M revenue) | Baseline starting rate of **2.9% + $0.30** per transaction or custom markup over existing processor gateway | **No Free Tier**: Sandbox developer portal for testing; live deployment requires enterprise agreement. | Merchants exploring standalone alternative 1-click networks aware of ongoing platform volatility. |
+| **[Fast](https://fast.co/)** | **$0 / Defunct** (Shut down April 2022 after raising $125M; peaked at $600K ARR) | Defunct (**N/A**; previously charged ~2.9% + $0.30) | **Defunct**: Zero active tiers or trials. Retained as historical case study on unsustainable wallet subsidies. | Historical reference only; do not build on this platform. |
 
 ## Open-Source GitHub Projects
 
